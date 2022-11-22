@@ -1,0 +1,33 @@
+.checkout__bill {
+    background: #f1f1f1;
+    padding: 30px;
+}
+.addTOCart__btn{
+    background-color: #2727ce !important;
+}
+
+.checkout__total {
+    border-top: 1px solid rgb(20, 20, 20);
+    padding-top: 30px;
+}
+
+.checkout__form input {
+    width: 50vw;
+    border-width: 0 0 2px;
+
+}
+
+.checkout__form input:focus {
+    border-color:#2727ce !important;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .checkout__bill h6 {
+        font-size: 0.9rem;
+    }
+
+    .checkout__bill {
+        margin-top: 40px;
+    }
+}
