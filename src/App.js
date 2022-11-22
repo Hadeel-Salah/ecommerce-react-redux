@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from "react-redux";
+import { Footer } from "./components/Footer/Footer";
+import { Header } from "./components/Header/Header";
+import { CartSlider } from "./pages/CartSlider/CartSlider";
+import { PagesRouters } from './routers/PagesRouters';
 
 function App() {
+  const showCart = useSelector((state) => state.cartUi.cartIsVisible)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <Header />
+        {showCart && <CartSlider />}
+        <PagesRouters />
+        <Footer />
+    </>
+
   );
 }
 
