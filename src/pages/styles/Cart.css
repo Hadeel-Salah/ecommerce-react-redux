@@ -1,0 +1,45 @@
+th {
+    text-align: center;
+    border-color: #2727ce;
+}
+
+.cart__img-box {
+    width: 80px;
+}
+
+.cart__img-box img {
+    width: 100%;
+}
+
+.cart__item-del i {
+    cursor: pointer;
+}
+
+.cart__page-btn button a{
+    text-decoration: none;
+    color: white;
+}
+.addTOCart__btn{
+    background-color:#2727ce;
+}
+.cart__page-btn button{
+    border-radius: 10px;
+    font-size: 0.8rem;
+    width: 15vw;
+    height: 6vh;
+    border: none;
+}
+
+
+.cart__subtotal {
+    color: #2727ce;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    th,
+    td {
+        font-size: 0.8rem;
+    }
+}
