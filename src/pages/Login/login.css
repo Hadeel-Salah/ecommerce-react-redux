@@ -1,0 +1,7 @@
+.form__group input {
+    width: 25vw;
+}
+
+input:focus {
+    border-color: #2727ce !important;
+}
