@@ -1,0 +1,12 @@
+.feature__subtitle,
+.feature__title span {
+    color: #2727ce;
+}
+
+.feature__text {
+    color: #777;
+}
+
+.feature__item p {
+    color: #777;
+}
